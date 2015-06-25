@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KrVideoPlayerPlus"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of KrVideoPlayerPlus."
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/KrVideoPlayerPlus.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/835239104/KrVideoPlayerPlus.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
