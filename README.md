@@ -1,3 +1,9 @@
+# 通知 本播放器不能支持iOS9 以上设备 
+#推荐 [kxmovie](https://github.com/kolyvan/kxmovie)  [修改说明](http://www.cocoachina.com/bbs/read.php?tid=145575)[修改代码](https://github.com/kinglonghuang/kxmovie)
+2015'11'15 喧
+
+
+
 # KrVideoPlayerPlus
 根据36Kr开源的[KRVideoPlayer](https://github.com/36Kr-Mobile/KRVideoPlayer) 进行修改和补充实现一个轻量级的视频播放器，满足大部分视频播放需求
 
