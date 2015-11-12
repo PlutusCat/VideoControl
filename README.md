@@ -1,5 +1,5 @@
 # 通知 本播放器不能支持iOS9 以上设备 
-#推荐 [kxmovie](https://github.com/kolyvan/kxmovie)  [修改说明](http://www.cocoachina.com/bbs/read.php?tid=145575)[修改代码](https://github.com/kinglonghuang/kxmovie)
+推荐 [kxmovie](https://github.com/kolyvan/kxmovie)  [修改说明](http://www.cocoachina.com/bbs/read.php?tid=145575)[修改代码](https://github.com/kinglonghuang/kxmovie)
 2015'11'15 喧
 
 
