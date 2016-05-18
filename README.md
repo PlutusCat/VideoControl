@@ -51,7 +51,7 @@
 
 #小知识
 *隐藏navigation tabbar 电池栏
-*View controllerbased status bar appearance    NO
+*在 Plist 中添加 UIViewControllerBasedStatusBarAppearance    NO
 ``` objectivec
  (void)toolbarHidden:(BOOL)Bool{
     self.navigationController.navigationBar.hidden = Bool;
