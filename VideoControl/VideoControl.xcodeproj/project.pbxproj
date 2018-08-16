@@ -26,7 +26,7 @@
 		414BC7462125535C00569854 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414BC7452125535C00569854 /* OpenGLES.framework */; };
 		414BC7482125536200569854 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414BC7472125536200569854 /* QuartzCore.framework */; };
 		414BC74A2125536800569854 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414BC7492125536800569854 /* VideoToolbox.framework */; };
-		414BC74C2125558800569854 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414BC74B2125558800569854 /* IJKMediaFramework.framework */; };
+		414BC74E2125589B00569854 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414BC74D2125589B00569854 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,7 @@
 		414BC7452125535C00569854 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		414BC7472125536200569854 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		414BC7492125536800569854 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		414BC74B2125558800569854 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = VideoControl/Framework/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		414BC74D2125589B00569854 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = VideoControl/Framework/IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				414BC74A2125536800569854 /* VideoToolbox.framework in Frameworks */,
 				414BC7482125536200569854 /* QuartzCore.framework in Frameworks */,
 				414BC7462125535C00569854 /* OpenGLES.framework in Frameworks */,
-				414BC74C2125558800569854 /* IJKMediaFramework.framework in Frameworks */,
+				414BC74E2125589B00569854 /* IJKMediaFramework.framework in Frameworks */,
 				414BC7442125535700569854 /* MobileCoreServices.framework in Frameworks */,
 				414BC7422125535100569854 /* MediaPlayer.framework in Frameworks */,
 				414BC7402125534A00569854 /* CoreVideo.framework in Frameworks */,
@@ -113,7 +113,7 @@
 		414BC72C2125530300569854 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				414BC74B2125558800569854 /* IJKMediaFramework.framework */,
+				414BC74D2125589B00569854 /* IJKMediaFramework.framework */,
 				414BC7492125536800569854 /* VideoToolbox.framework */,
 				414BC7472125536200569854 /* QuartzCore.framework */,
 				414BC7452125535C00569854 /* OpenGLES.framework */,
