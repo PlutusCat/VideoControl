@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4149292F211ABBF5009A6702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4149292E211ABBF5009A6702 /* AppDelegate.swift */; };
 		41492931211ABBF5009A6702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41492930211ABBF5009A6702 /* ViewController.swift */; };
-		41492934211ABBF5009A6702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41492932211ABBF5009A6702 /* Main.storyboard */; };
 		41492936211ABBF7009A6702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41492935211ABBF7009A6702 /* Assets.xcassets */; };
 		41492939211ABBF7009A6702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41492937211ABBF7009A6702 /* LaunchScreen.storyboard */; };
 		414BC72E2125530300569854 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 414BC72D2125530300569854 /* libc++.tbd */; };
@@ -27,15 +26,12 @@
 		414BC7482125536200569854 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414BC7472125536200569854 /* QuartzCore.framework */; };
 		414BC74A2125536800569854 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414BC7492125536800569854 /* VideoToolbox.framework */; };
 		414BC74E2125589B00569854 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414BC74D2125589B00569854 /* IJKMediaFramework.framework */; };
-		B2EA88A2CFDCC16CD8230F30 /* Pods_VideoControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC0489498D9189F8ABEF2CF /* Pods_VideoControl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C5CF63CD6B05F8FB89D21FF /* Pods-VideoControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoControl/Pods-VideoControl.release.xcconfig"; sourceTree = "<group>"; };
 		4149292B211ABBF5009A6702 /* VideoControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4149292E211ABBF5009A6702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41492930211ABBF5009A6702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41492933211ABBF5009A6702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41492935211ABBF7009A6702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41492938211ABBF7009A6702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4149293A211ABBF7009A6702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,8 +50,6 @@
 		414BC7472125536200569854 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		414BC7492125536800569854 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		414BC74D2125589B00569854 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = VideoControl/Framework/IJKMediaFramework.framework; sourceTree = "<group>"; };
-		7CD39EBE45AB4DBD54520388 /* Pods-VideoControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoControl/Pods-VideoControl.debug.xcconfig"; sourceTree = "<group>"; };
-		FAC0489498D9189F8ABEF2CF /* Pods_VideoControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +72,6 @@
 				414BC7342125531C00569854 /* libbz2.tbd in Frameworks */,
 				414BC7322125531600569854 /* libz.tbd in Frameworks */,
 				414BC72E2125530300569854 /* libc++.tbd in Frameworks */,
-				B2EA88A2CFDCC16CD8230F30 /* Pods_VideoControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +84,6 @@
 				4149292D211ABBF5009A6702 /* VideoControl */,
 				4149292C211ABBF5009A6702 /* Products */,
 				414BC72C2125530300569854 /* Frameworks */,
-				63AD5AADEFEB16C5DA5C2779 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +100,6 @@
 			children = (
 				4149292E211ABBF5009A6702 /* AppDelegate.swift */,
 				41492930211ABBF5009A6702 /* ViewController.swift */,
-				41492932211ABBF5009A6702 /* Main.storyboard */,
 				41492935211ABBF7009A6702 /* Assets.xcassets */,
 				41492937211ABBF7009A6702 /* LaunchScreen.storyboard */,
 				4149293A211ABBF7009A6702 /* Info.plist */,
@@ -134,18 +125,8 @@
 				414BC7332125531C00569854 /* libbz2.tbd */,
 				414BC7312125531600569854 /* libz.tbd */,
 				414BC72D2125530300569854 /* libc++.tbd */,
-				FAC0489498D9189F8ABEF2CF /* Pods_VideoControl.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		63AD5AADEFEB16C5DA5C2779 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7CD39EBE45AB4DBD54520388 /* Pods-VideoControl.debug.xcconfig */,
-				0C5CF63CD6B05F8FB89D21FF /* Pods-VideoControl.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,11 +136,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4149293D211ABBF7009A6702 /* Build configuration list for PBXNativeTarget "VideoControl" */;
 			buildPhases = (
-				4F7BD7AC0249E307978A744C /* [CP] Check Pods Manifest.lock */,
 				41492927211ABBF5009A6702 /* Sources */,
 				41492928211ABBF5009A6702 /* Frameworks */,
 				41492929211ABBF5009A6702 /* Resources */,
-				55AFC5B8C9DDA73A5F427E86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +161,7 @@
 				TargetAttributes = {
 					4149292A211ABBF5009A6702 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -210,54 +190,10 @@
 			files = (
 				41492939211ABBF7009A6702 /* LaunchScreen.storyboard in Resources */,
 				41492936211ABBF7009A6702 /* Assets.xcassets in Resources */,
-				41492934211ABBF5009A6702 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4F7BD7AC0249E307978A744C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VideoControl-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55AFC5B8C9DDA73A5F427E86 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VideoControl/Pods-VideoControl-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoControl/Pods-VideoControl-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41492927211ABBF5009A6702 /* Sources */ = {
@@ -272,14 +208,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		41492932211ABBF5009A6702 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41492933211ABBF5009A6702 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		41492937211ABBF7009A6702 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -407,9 +335,9 @@
 		};
 		4149293E211ABBF7009A6702 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CD39EBE45AB4DBD54520388 /* Pods-VideoControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8DP89SRM4;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -419,9 +347,14 @@
 				);
 				INFOPLIST_FILE = VideoControl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PlutusCat.VideoControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -429,9 +362,9 @@
 		};
 		4149293F211ABBF7009A6702 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C5CF63CD6B05F8FB89D21FF /* Pods-VideoControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8DP89SRM4;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -441,9 +374,13 @@
 				);
 				INFOPLIST_FILE = VideoControl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.PlutusCat.VideoControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
