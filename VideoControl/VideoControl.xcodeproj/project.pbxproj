@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413598D621266D70006B581B /* ConstantURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413598D521266D70006B581B /* ConstantURL.swift */; };
+		413598DA2126AE3E006B581B /* LayoutSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413598D92126AE3E006B581B /* LayoutSize.swift */; };
 		4149292F211ABBF5009A6702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4149292E211ABBF5009A6702 /* AppDelegate.swift */; };
 		41492931211ABBF5009A6702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41492930211ABBF5009A6702 /* ViewController.swift */; };
 		41492936211ABBF7009A6702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41492935211ABBF7009A6702 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		413598D521266D70006B581B /* ConstantURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantURL.swift; sourceTree = "<group>"; };
+		413598D92126AE3E006B581B /* LayoutSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSize.swift; sourceTree = "<group>"; };
 		4149292B211ABBF5009A6702 /* VideoControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4149292E211ABBF5009A6702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41492930211ABBF5009A6702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				41492935211ABBF7009A6702 /* Assets.xcassets */,
 				41492937211ABBF7009A6702 /* LaunchScreen.storyboard */,
 				4149293A211ABBF7009A6702 /* Info.plist */,
+				413598D521266D70006B581B /* ConstantURL.swift */,
+				413598D92126AE3E006B581B /* LayoutSize.swift */,
 			);
 			path = VideoControl;
 			sourceTree = "<group>";
@@ -200,6 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413598DA2126AE3E006B581B /* LayoutSize.swift in Sources */,
+				413598D621266D70006B581B /* ConstantURL.swift in Sources */,
 				41492931211ABBF5009A6702 /* ViewController.swift in Sources */,
 				4149292F211ABBF5009A6702 /* AppDelegate.swift in Sources */,
 			);

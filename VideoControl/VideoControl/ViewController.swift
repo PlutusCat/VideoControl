@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
 
-        let url = URL(string: "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8")
+        let url = URL(string: ConstantURLs.cctv1.rawValue)
         let options = IJKFFOptions.byDefault()
         videoView = IJKFFMoviePlayerController(contentURL: url, with: options)
 
@@ -26,13 +26,30 @@ class ViewController: UIViewController {
             UIViewAutoresizing.flexibleHeight.rawValue
         videoView.view.autoresizingMask = UIViewAutoresizing(rawValue: autoresize)
 
-        videoView.view.frame = view.bounds
+        videoView.view.frame = CGRect(x: 0,
+                                      y: navigationHeight(),
+                                      width: view.bounds.width,
+                                      height: view.bounds.width.proportionHeight())
         videoView.scalingMode = .aspectFit
         videoView.shouldAutoplay = true
         videoView.prepareToPlay()
 
         view.autoresizesSubviews = true
         view.addSubview(videoView.view)
+
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+
+        videoView.prepareToPlay()
+
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(true)
+
+        videoView.shutdown()
 
     }
 
